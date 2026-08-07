@@ -1,1 +1,322 @@
+<!DOCTYPE html>
+
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+```
+<title>Education | ประวัติการศึกษา</title>
+
+<link rel="stylesheet" href="style.css">
+```
+
+</head>
+
+<body>
+
+```
+<div class="container">
+
+    <!-- หัวข้อ -->
+
+    <p class="small-title">
+        MY EDUCATION
+    </p>
+
+    <h1>
+        🎓 ประวัติการศึกษา
+    </h1>
+
+    <p class="welcome">
+        เส้นทางการศึกษาและประสบการณ์การเรียนรู้ของฉัน
+    </p>
+
+
+    <!-- ประวัติการศึกษา -->
+
+    <div class="education-list">
+
+
+        <!-- ประถมศึกษา -->
+
+        <div class="education-card">
+
+            <div class="education-icon">
+                🏫
+            </div>
+
+            <div class="education-content">
+
+                <span class="education-level">
+                    ระดับประถมศึกษา
+                </span>
+
+                <h2>
+                    โรงเรียน................................
+                </h2>
+
+                <p>
+                    ปีการศึกษา 25XX - 25XX
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- มัธยมศึกษาตอนต้น -->
+
+        <div class="education-card">
+
+            <div class="education-icon">
+                📚
+            </div>
+
+            <div class="education-content">
+
+                <span class="education-level">
+                    ระดับมัธยมศึกษาตอนต้น
+                </span>
+
+                <h2>
+                    โรงเรียน................................
+                </h2>
+
+                <p>
+                    ปีการศึกษา 25XX - 25XX
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- มัธยมศึกษาตอนปลาย -->
+
+        <div class="education-card current">
+
+            <div class="education-icon">
+                🎓
+            </div>
+
+            <div class="education-content">
+
+                <span class="education-level">
+                    ระดับมัธยมศึกษาตอนปลาย
+                </span>
+
+                <h2>
+                    โรงเรียน................................
+                </h2>
+
+                <p>
+                    แผนการเรียน วิทยาศาสตร์ - คณิตศาสตร์
+                </p>
+
+                <p>
+                    ปีการศึกษา 25XX - ปัจจุบัน
+                </p>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <!-- ปุ่มกลับ -->
+
+    <div class="back">
+
+        <a href="index.html">
+            🏠 กลับหน้าแรก
+        </a>
+
+    </div>
+
+
+    <footer>
+        © 2026 My Portfolio
+    </footer>
+
+</div>
+
+
+<style>
+
+    /* =========================
+       Education
+    ========================= */
+
+    .education-list {
+
+        max-width: 580px;
+
+        margin: 30px auto 0;
+
+        display: flex;
+
+        flex-direction: column;
+
+        gap: 15px;
+    }
+
+
+    /* การ์ดการศึกษา */
+
+    .education-card {
+
+        display: flex;
+
+        align-items: center;
+
+        gap: 18px;
+
+        padding: 20px;
+
+        background: #f8fcff;
+
+        border: 1px solid #d7e8f0;
+
+        border-radius: 20px;
+
+        text-align: left;
+
+        transition: 0.3s ease;
+    }
+
+
+    /* Hover */
+
+    .education-card:hover {
+
+        transform: translateX(5px);
+
+        background: white;
+
+        border-color: #9bcfe3;
+
+        box-shadow:
+            0 10px 25px rgba(55, 100, 135, 0.12);
+    }
+
+
+    /* การ์ดปัจจุบัน */
+
+    .education-card.current {
+
+        background: #eaf7fc;
+
+        border-color: #a8d5e6;
+    }
+
+
+    /* ไอคอน */
+
+    .education-icon {
+
+        width: 55px;
+
+        height: 55px;
+
+        min-width: 55px;
+
+        display: flex;
+
+        align-items: center;
+
+        justify-content: center;
+
+        background: #e3f4fb;
+
+        border-radius: 16px;
+
+        font-size: 27px;
+    }
+
+
+    /* ระดับการศึกษา */
+
+    .education-level {
+
+        display: inline-block;
+
+        font-size: 12px;
+
+        color: #6b9bb5;
+
+        margin-bottom: 4px;
+    }
+
+
+    /* ชื่อโรงเรียน */
+
+    .education-content h2 {
+
+        font-size: 18px;
+
+        color: #365a73;
+
+        margin-bottom: 5px;
+    }
+
+
+    /* รายละเอียด */
+
+    .education-content p {
+
+        font-size: 14px;
+
+        color: #7891a5;
+
+        margin: 2px 0;
+    }
+
+
+    /* มือถือ */
+
+    @media (max-width: 600px) {
+
+        .education-card {
+
+            padding: 16px;
+
+            gap: 13px;
+        }
+
+
+        .education-icon {
+
+            width: 45px;
+
+            height: 45px;
+
+            min-width: 45px;
+
+            font-size: 22px;
+        }
+
+
+        .education-content h2 {
+
+            font-size: 16px;
+        }
+
+
+        .education-content p {
+
+            font-size: 13px;
+        }
+
+    }
+
+</style>
+```
+
+</body>
+
+</html>
 
