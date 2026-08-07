@@ -1,1 +1,392 @@
+<!DOCTYPE html>
+
+<html lang="th">
+
+<head>
+
+```
+<meta charset="UTF-8">
+
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+
+<title>Contact | ช่องทางติดต่อ</title>
+
+<link rel="stylesheet" href="style.css">
+```
+
+</head>
+
+<body>
+
+```
+<div class="container">
+
+    <!-- หัวข้อ -->
+
+    <p class="small-title">
+        CONTACT ME
+    </p>
+
+    <h1>
+        📞 ช่องทางติดต่อ
+    </h1>
+
+    <p class="welcome">
+        สามารถติดต่อฉันผ่านช่องทางต่าง ๆ ได้ที่นี่
+    </p>
+
+
+    <!-- ช่องทางติดต่อ -->
+
+    <div class="contact-list">
+
+
+        <!-- Email -->
+
+        <a href="mailto:example@gmail.com"
+           class="contact-card">
+
+            <div class="contact-icon">
+                ✉
+            </div>
+
+            <div class="contact-content">
+
+                <span>
+                    Email
+                </span>
+
+                <strong>
+                    example@gmail.com
+                </strong>
+
+            </div>
+
+            <div class="arrow">
+                →
+            </div>
+
+        </a>
+
+
+        <!-- Facebook -->
+
+        <a href="https://www.facebook.com/"
+           target="_blank"
+           class="contact-card">
+
+            <div class="contact-icon">
+                f
+            </div>
+
+            <div class="contact-content">
+
+                <span>
+                    Facebook
+                </span>
+
+                <strong>
+                    Facebook ของฉัน
+                </strong>
+
+            </div>
+
+            <div class="arrow">
+                →
+            </div>
+
+        </a>
+
+
+        <!-- Instagram -->
+
+        <a href="https://www.instagram.com/"
+           target="_blank"
+           class="contact-card">
+
+            <div class="contact-icon">
+                ◎
+            </div>
+
+            <div class="contact-content">
+
+                <span>
+                    Instagram
+                </span>
+
+                <strong>
+                    @username
+                </strong>
+
+            </div>
+
+            <div class="arrow">
+                →
+            </div>
+
+        </a>
+
+
+        <!-- LINE -->
+
+        <a href="https://line.me/"
+           target="_blank"
+           class="contact-card">
+
+            <div class="contact-icon">
+                L
+            </div>
+
+            <div class="contact-content">
+
+                <span>
+                    LINE
+                </span>
+
+                <strong>
+                    LINE ID : username
+                </strong>
+
+            </div>
+
+            <div class="arrow">
+                →
+            </div>
+
+        </a>
+
+
+        <!-- โทรศัพท์ -->
+
+        <a href="tel:0812345678"
+           class="contact-card">
+
+            <div class="contact-icon">
+                ☎
+            </div>
+
+            <div class="contact-content">
+
+                <span>
+                    โทรศัพท์
+                </span>
+
+                <strong>
+                    081-234-5678
+                </strong>
+
+            </div>
+
+            <div class="arrow">
+                →
+            </div>
+
+        </a>
+
+
+    </div>
+
+
+    <!-- ปุ่มกลับหน้าแรก -->
+
+    <div class="back">
+
+        <a href="index.html">
+            🏠 กลับหน้าแรก
+        </a>
+
+    </div>
+
+
+    <footer>
+        © 2026 My Portfolio
+    </footer>
+
+</div>
+
+
+<!-- CSS เฉพาะหน้า Contact -->
+
+<style>
+
+    /* =========================
+       Contact
+    ========================= */
+
+    .contact-list {
+
+        max-width: 560px;
+
+        margin: 30px auto 0;
+
+        display: flex;
+
+        flex-direction: column;
+
+        gap: 13px;
+    }
+
+
+    /* การ์ดติดต่อ */
+
+    .contact-card {
+
+        display: flex;
+
+        align-items: center;
+
+        gap: 15px;
+
+        padding: 14px 18px;
+
+        background: #f8fcff;
+
+        border: 1px solid #d7e8f0;
+
+        border-radius: 20px;
+
+        text-decoration: none;
+
+        color: #365a73;
+
+        text-align: left;
+
+        transition: all 0.3s ease;
+    }
+
+
+    /* Hover */
+
+    .contact-card:hover {
+
+        transform: translateY(-3px);
+
+        background: white;
+
+        border-color: #9bcfe3;
+
+        box-shadow:
+            0 10px 25px rgba(55, 100, 135, 0.12);
+    }
+
+
+    /* ไอคอน */
+
+    .contact-icon {
+
+        width: 48px;
+
+        height: 48px;
+
+        min-width: 48px;
+
+        display: flex;
+
+        align-items: center;
+
+        justify-content: center;
+
+        background: #e3f4fb;
+
+        color: #4f8cab;
+
+        border-radius: 15px;
+
+        font-size: 22px;
+
+        font-weight: 600;
+    }
+
+
+    /* ข้อความ */
+
+    .contact-content {
+
+        display: flex;
+
+        flex-direction: column;
+
+        flex: 1;
+    }
+
+
+    .contact-content span {
+
+        font-size: 12px;
+
+        color: #8da5b5;
+
+        margin-bottom: 2px;
+    }
+
+
+    .contact-content strong {
+
+        font-size: 15px;
+
+        font-weight: 500;
+
+        color: #365a73;
+    }
+
+
+    /* ลูกศร */
+
+    .arrow {
+
+        font-size: 22px;
+
+        color: #9ab7c7;
+
+        transition: 0.3s;
+    }
+
+
+    .contact-card:hover .arrow {
+
+        color: #4f8cab;
+
+        transform: translateX(4px);
+    }
+
+
+    /* มือถือ */
+
+    @media (max-width: 600px) {
+
+        .contact-card {
+
+            padding: 12px 14px;
+
+        }
+
+
+        .contact-icon {
+
+            width: 43px;
+
+            height: 43px;
+
+            min-width: 43px;
+
+            font-size: 19px;
+
+        }
+
+
+        .contact-content strong {
+
+            font-size: 14px;
+
+        }
+
+    }
+
+</style>
+```
+
+</body>
+
+</html>
 
