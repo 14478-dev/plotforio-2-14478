@@ -1,1 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+body {
+font-family: 'Prompt', sans-serif;
+min-height: 100vh;
+
+```
+background: linear-gradient(
+    135deg,
+    #eaf7ff,
+    #f8fbff,
+    #eef3ff
+);
+
+color: #334155;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+padding: 30px 15px;
+```
+
+}
+
+/* กล่องหลัก */
+
+.container {
+width: 100%;
+max-width: 700px;
+
+```
+background: rgba(255, 255, 255, 0.92);
+
+padding: 45px 40px;
+
+border-radius: 30px;
+
+text-align: center;
+
+box-shadow:
+    0 15px 45px rgba(71, 105, 140, 0.12);
+
+border: 1px solid rgba(255,255,255,0.8);
+```
+
+}
+
+/* รูปโปรไฟล์ */
+
+.profile-box {
+display: flex;
+justify-content: center;
+margin-bottom: 20px;
+}
+
+.profile {
+width: 150px;
+height: 150px;
+
+```
+object-fit: cover;
+
+border-radius: 50%;
+
+border: 6px solid white;
+
+box-shadow:
+    0 8px 25px rgba(80, 120, 160, 0.20);
+
+transition: 0.3s ease;
+```
+
+}
+
+.profile:hover {
+transform: scale(1.04);
+}
+
+/* หัวข้อเล็ก */
+
+.small-title {
+font-size: 13px;
+
+```
+letter-spacing: 4px;
+
+color: #7aa7c7;
+
+font-weight: 500;
+
+margin-bottom: 8px;
+```
+
+}
+
+/* หัวข้อ */
+
+h1 {
+font-size: 34px;
+
+```
+font-weight: 600;
+
+color: #334e68;
+
+margin-bottom: 8px;
+```
+
+}
+
+.welcome {
+font-size: 16px;
+
+```
+color: #829ab1;
+
+margin-bottom: 12px;
+```
+
+}
+
+h2 {
+font-size: 20px;
+
+```
+font-weight: 500;
+
+color: #527d9e;
+
+margin-bottom: 5px;
+```
+
+}
+
+.student-info {
+font-size: 14px;
+
+```
+color: #9fb3c8;
+
+margin-bottom: 30px;
+```
+
+}
+
+/* เมนู */
+
+.menu {
+display: flex;
+flex-direction: column;
+
+```
+gap: 12px;
+
+max-width: 500px;
+
+margin: auto;
+```
+
+}
+
+/* ปุ่ม */
+
+.menu-item {
+display: flex;
+
+```
+align-items: center;
+
+text-decoration: none;
+
+color: #52606d;
+
+background: #f8fbfd;
+
+border: 1px solid #e3edf4;
+
+padding: 15px 20px;
+
+border-radius: 18px;
+
+transition: all 0.25s ease;
+
+font-size: 16px;
+
+text-align: left;
+```
+
+}
+
+/* ไอคอน */
+
+.icon {
+width: 40px;
+height: 40px;
+
+```
+display: flex;
+
+align-items: center;
+justify-content: center;
+
+background: #e7f3fa;
+
+border-radius: 12px;
+
+margin-right: 15px;
+
+font-size: 20px;
+
+color: #5b8bab;
+```
+
+}
+
+/* ตอนเอาเมาส์ชี้ */
+
+.menu-item:hover {
+transform: translateY(-3px);
+
+```
+background: #ffffff;
+
+border-color: #b8d9ea;
+
+box-shadow:
+    0 8px 20px rgba(80, 120, 160, 0.10);
+
+color: #39739d;
+```
+
+}
+
+/* ปุ่มหน้าแรก */
+
+.menu-item.active {
+background: #e9f5fb;
+
+```
+border-color: #b8d9ea;
+
+color: #39739d;
+```
+
+}
+
+/* Footer */
+
+footer {
+margin-top: 30px;
+
+```
+font-size: 13px;
+
+color: #a3b4c3;
+```
+
+}
+
+/* มือถือ */
+
+@media (max-width: 600px) {
+
+```
+body {
+    padding: 15px;
+}
+
+.container {
+    padding: 35px 20px;
+
+    border-radius: 25px;
+}
+
+.profile {
+    width: 125px;
+    height: 125px;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+.menu-item {
+    padding: 13px 15px;
+}
+```
+
+}
 
