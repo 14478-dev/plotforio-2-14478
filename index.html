@@ -1,80 +1,146 @@
 <!DOCTYPE html>
-
 <html lang="th">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-```
-<title>Portfolio | นักเรียน ม.6</title>
+    <title>Portfolio ม.6</title>
 
-<link rel="stylesheet" href="style.css">
-```
+    <style>
+        /* CSS ทั้งหมดใส่ตรงนี้ */
+        
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #dff6ff, #f8fcff, #dce8ff);
+            margin: 0;
+            padding: 30px 15px;
+            min-height: 100vh;
+        }
 
+        .container {
+            max-width: 700px;
+            margin: auto;
+            background: white;
+            padding: 45px 40px;
+            border-radius: 30px;
+            text-align: center;
+            box-shadow: 0 20px 50px rgba(37, 67, 110, 0.15);
+        }
+
+        .profile {
+            width: 155px;
+            height: 155px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 7px solid white;
+            box-shadow: 0 10px 30px rgba(45, 80, 120, 0.2);
+        }
+
+        h1 {
+            color: #263f55;
+            font-size: 35px;
+        }
+
+        h2 {
+            color: #3f6684;
+        }
+
+        .welcome {
+            color: #7891a5;
+        }
+
+        .student-info {
+            color: #8da3b5;
+            margin-bottom: 30px;
+        }
+
+        .menu {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            max-width: 500px;
+            margin: auto;
+        }
+
+        .menu-item {
+            display: block;
+            padding: 18px;
+            border-radius: 18px;
+            background: #f7fbfd;
+            border: 1px solid #d5e6ef;
+            color: #43596b;
+            text-decoration: none;
+            text-align: left;
+            transition: 0.3s;
+        }
+
+        .menu-item:hover {
+            transform: translateX(5px);
+            background: #e5f5fb;
+        }
+
+        .icon {
+            margin-right: 15px;
+            font-size: 20px;
+        }
+
+        footer {
+            margin-top: 30px;
+            color: #9aafbf;
+        }
+    </style>
 </head>
 
 <body>
 
-```
 <div class="container">
 
     <!-- รูปโปรไฟล์ -->
-    <div class="profile-box">
-        <img src="profile.jpg" alt="รูปโปรไฟล์" class="profile">
-    </div>
+    <img src="profile.jpg" alt="รูปโปรไฟล์" class="profile">
 
-    <!-- ชื่อเว็บไซต์ -->
-    <p class="small-title">MY PORTFOLIO</p>
+    <p>MY PORTFOLIO</p>
 
     <h1>แฟ้มสะสมผลงาน</h1>
 
     <p class="welcome">
-        ยินดีต้อนรับเข้าสู่ Portfolio ของฉัน
+        ยินดีต้อนรับเข้าสู่ Portfolio ของ เเฟ้มนักบอลเกมบอล
     </p>
 
-    <h2>นาย รติวัฒน์ จำปาหอม </h2>
+    <h2>นาย รติวัฒน์ จำปาหอม</h2>
 
     <p class="student-info">
         นักเรียนชั้นมัธยมศึกษาปีที่ 6/2
     </p>
 
-    <!-- เมนู -->
     <div class="menu">
 
-        <a href="index.html" class="menu-item active">
-            <span class="icon">⌂</span>
-            <span>หน้าแรก</span>
+        <a href="index.html" class="menu-item">
+            🏠 &nbsp; หน้าแรก
         </a>
 
         <a href="profile.html" class="menu-item">
-            <span class="icon">♙</span>
-            <span>ประวัติส่วนตัว</span>
+            👤 &nbsp; ประวัติส่วนตัว
         </a>
 
         <a href="education.html" class="menu-item">
-            <span class="icon">🎓</span>
-            <span>ประวัติการศึกษา</span>
+            🎓 &nbsp; ประวัติการศึกษา
         </a>
 
         <a href="award.html" class="menu-item">
-            <span class="icon">★</span>
-            <span>ผลงาน</span>
+            ⭐ &nbsp; ผลงาน
         </a>
 
         <a href="contact.html" class="menu-item">
-            <span class="icon">✉</span>
-            <span>ช่องทางติดต่อ</span>
+            ✉️ &nbsp; ช่องทางติดต่อ
         </a>
 
     </div>
 
     <footer>
-        © 2026 My Portfolio 
+        © 2026 My Portfolio
     </footer>
 
 </div>
-```
 
 </body>
 </html>
